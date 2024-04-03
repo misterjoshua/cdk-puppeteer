@@ -1,6 +1,10 @@
 {
   "dependencies": [
     {
+      "name": "@types/aws-lambda",
+      "type": "build"
+    },
+    {
       "name": "@types/jest",
       "type": "build"
     },
@@ -67,6 +71,21 @@
       "type": "build"
     },
     {
+      "name": "@aws-sdk/client-s3",
+      "version": "^3",
+      "type": "runtime"
+    },
+    {
+      "name": "@aws-sdk/s3-request-presigner",
+      "version": "^3",
+      "type": "runtime"
+    },
+    {
+      "name": "@sparticuz/chromium",
+      "version": "^123",
+      "type": "runtime"
+    },
+    {
       "name": "aws-cdk-lib",
       "version": "^2.1.0",
       "type": "runtime"
@@ -74,6 +93,11 @@
     {
       "name": "constructs",
       "version": "^10.0.5",
+      "type": "runtime"
+    },
+    {
+      "name": "puppeteer",
+      "version": "^22",
       "type": "runtime"
     }
   ],
